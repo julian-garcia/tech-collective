@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Tech Collective`,
+    description: `A tech-upskill community for active, collaborative learners.`,
+    author: `Julian Garcia`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -15,10 +15,11 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `tech-collective`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,

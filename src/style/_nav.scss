@@ -1,0 +1,22 @@
+.nav-menu {
+  display: none;
+  
+  &__item {
+    font-family: $nav-menu-font;
+    margin: 0 1rem;
+  }
+
+  .button {
+    font-family: $nav-menu-font;
+    padding: 10px 40px;
+  }
+
+  @media (min-width: $tablet-portrait) {
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    align-self: center;
+    justify-content: space-between;
+    max-width: 500px;
+  }
+}

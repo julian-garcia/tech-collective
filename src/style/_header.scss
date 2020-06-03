@@ -1,0 +1,59 @@
+.header {
+  &-background, 
+  &-background-mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &-background {
+    display: none;
+
+    @media (min-width: $tablet-portrait) {
+      display: block;
+      width: 100%;
+      height: $header-height-bg;
+    }
+  }
+
+  &-background-mobile {
+    display: block;
+    height: $header-height-bg;
+    width: 100%;
+    @media (min-width: $tablet-portrait) {
+      display: none;
+    }
+  }
+
+  &-content {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    height: $header-height;
+    
+    @media (min-width: $tablet-portrait) {
+      justify-items: end;
+      grid-template-columns: 3fr 4fr;
+    }
+  }
+}
+
+.logo-title {
+  margin: 0 0 0 1rem;
+  justify-self: start;
+  align-self: center;
+
+  .logo-link {
+    font-family: $title-font;
+  }
+
+  h1 { margin:0 }
+}
+
+.headline {
+  position: relative;
+  font-family: $title-font;
+  margin: 0 1rem;
+  max-width: 500px;
+  height: $headline-height;
+}
