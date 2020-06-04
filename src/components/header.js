@@ -6,6 +6,8 @@ import HeaderImageMobile from "../images/header-background-mobile.svg"
 import LogoBackground from "../images/logo-background.svg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlayCircle, faBars } from '@fortawesome/free-solid-svg-icons'
+import logoImgSmall from '../images/logo-small.svg'
+import logoImgLarge from '../images/logo-large.svg'
 
 const Header = ({ siteTitle }) => (
   <header className="header">
@@ -14,7 +16,11 @@ const Header = ({ siteTitle }) => (
     <img src={LogoBackground} alt="" className="logo-background" />
     <div className="header-content">
       <div className="logo-title">
-        <h1><Link to="/" className="logo-link">{siteTitle}</Link></h1>
+        <img src={logoImgSmall} alt="" className="logo-image-mobile" />
+        <img src={logoImgLarge} alt="" className="logo-image" />
+        <Link to="/" className="logo-link">
+          <h1>{siteTitle}</h1>
+        </Link>
       </div>
       <div className="nav-menu">
         <Link to="/" className="nav-menu__item">Philosophy</Link>

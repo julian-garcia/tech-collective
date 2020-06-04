@@ -12,7 +12,10 @@
 
   .button {
     font-family: $nav-menu-font;
-    padding: 10px 40px;
+    padding: 5px 10px;
+    @media (min-width: $tablet-landscape) {
+      padding: 10px 40px;
+    }
   }
 
   @media (min-width: $tablet-portrait) {
@@ -26,11 +29,11 @@
 }
 
 .mobile-nav-toggle {
-  font-size: 2rem;
+  font-size: 1.6rem;
   position: absolute;
   display: block;
   right: 1rem;
-  top: 1.5rem;
+  top: 1.7rem;
   cursor: pointer;
 
   @media (min-width: $tablet-portrait) {
