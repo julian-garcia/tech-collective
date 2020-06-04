@@ -1,4 +1,6 @@
 .header {
+  position: relative;
+
   &-background, 
   &-background-mobile {
     position: absolute;
@@ -18,7 +20,7 @@
 
   &-background-mobile {
     display: block;
-    height: $header-height-bg;
+    height: $header-height-mobile;
     width: 100%;
     @media (min-width: $tablet-portrait) {
       display: none;
@@ -39,21 +41,51 @@
 }
 
 .logo-title {
-  margin: 0 0 0 1rem;
+  margin: 0 0 0 2rem;
   justify-self: start;
   align-self: center;
 
   .logo-link {
     font-family: $title-font;
+    font-size: 2rem;
+    color: black;
+    @media (min-width: $phone) {
+      color: white;
+    }
   }
 
-  h1 { margin:0 }
+  h1 { margin:0; }
+}
+
+.logo-background {
+  display: none;
+
+  @media (min-width: $phone) {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -1px;
+    max-width: 340px;
+  }
 }
 
 .headline {
   position: relative;
   font-family: $title-font;
-  margin: 0 1rem;
-  max-width: 500px;
+  font-size: 30px;
+  margin: $headline-margin 2rem 0;
+  max-width: $headline-width;
   height: $headline-height;
+
+  &-button {
+    position: absolute;
+    top: calc(#{$header-height-bg} - 40px);
+    right: 40px;
+    font-size: 3rem;
+    cursor: pointer;
+    @media (min-width: $phone) {
+      top: calc(#{$headline-height} + #{$header-height} + #{$headline-margin});
+      left: calc(#{($headline-width / 2) - 40px});
+    }
+  }
 }

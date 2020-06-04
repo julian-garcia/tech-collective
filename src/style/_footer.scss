@@ -1,9 +1,18 @@
 .footer {
   background: $secondary-colour;
   color: white;
-  padding: 1rem 0;
+  padding: 2rem 0;
   text-align: center;
   height: $footer-height;
 
   p { margin: 0; }
+}
+
+.footer-social-icon {
+  color: black;
+  background: $primary-colour;
+  font-size: 2.5rem;
+  padding: .5rem;
+  margin: 10px 5px;
+  border-radius: 3px;
 }

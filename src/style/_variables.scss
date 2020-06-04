@@ -1,12 +1,15 @@
-$phone: 300px;
+$phone: 400px;
 $tablet-portrait: 760px;
 $tablet-landscape: 1000px;
 $desktop: 1200px;
 $desktop-large: 1800px;
-$header-height: 100px;
+$header-height: 80px;
 $header-height-bg: 300px;
-$footer-height: 140px;
-$headline-height: 65px;
+$header-height-mobile: 330px;
+$footer-height: 240px;
+$headline-height: 90px;
+$headline-width: 450px;
+$headline-margin: 1.5rem;
 
 $title-font: 'cabin';
 $button-font: $title-font;

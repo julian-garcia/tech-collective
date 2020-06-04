@@ -3,7 +3,11 @@
   
   &__item {
     font-family: $nav-menu-font;
-    margin: 0 1rem;
+    font-size: 1.2rem;
+    margin: 0 1rem 0 0;
+    @media (min-width: $tablet-landscape) {
+      margin: 0 2rem 0 0;
+    }
   }
 
   .button {
@@ -18,5 +22,18 @@
     align-self: center;
     justify-content: space-between;
     max-width: 500px;
+  }
+}
+
+.mobile-nav-toggle {
+  font-size: 2rem;
+  position: absolute;
+  display: block;
+  right: 1rem;
+  top: 1.5rem;
+  cursor: pointer;
+
+  @media (min-width: $tablet-portrait) {
+    display: none;
   }
 }
