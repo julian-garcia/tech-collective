@@ -1,11 +1,12 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import { showModal } from '../components/modal'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlayCircle, faBars } from '@fortawesome/free-solid-svg-icons'
 import HeaderImage from "../images/header-background.svg"
 import HeaderImageMobile from "../images/header-background-mobile.svg"
 import LogoBackground from "../images/logo-background.svg"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlayCircle, faBars } from '@fortawesome/free-solid-svg-icons'
 import logoImgSmall from '../images/logo-small.svg'
 import logoImgLarge from '../images/logo-large.svg'
 
@@ -31,7 +32,7 @@ const Header = ({ siteTitle }) => (
     </div>
     <FontAwesomeIcon icon={faBars} className="mobile-nav-toggle" />
     <h2 className="headline">A tech-upskill community for active, collaborative learners.|</h2>
-    <FontAwesomeIcon icon={faPlayCircle} className="headline-button" />
+    <FontAwesomeIcon icon={faPlayCircle} className="headline-button" onClick={showModal} />
   </header>
 )
 

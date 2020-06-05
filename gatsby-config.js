@@ -20,7 +20,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `tech-collective`,
-        short_name: `starter`,
+        short_name: `tech-collective`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,

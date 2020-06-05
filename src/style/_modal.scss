@@ -1,0 +1,40 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(black, .5);
+  display: none;
+
+  &-content {
+    position: absolute;
+    background: rgba(black, .5);
+    width: 100vw;
+    min-height: 100vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+
+    @media (min-width: $tablet-portrait) {
+      width: unset;
+      min-width: 500px;
+      min-height: 300px;
+      border-radius: 1rem;
+      background: white;
+    }
+  }
+
+  &-close {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  &.show {
+    display: block;
+  }
+}
