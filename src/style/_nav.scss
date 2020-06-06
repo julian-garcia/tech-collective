@@ -5,6 +5,12 @@
     font-family: $nav-menu-font;
     font-size: 1.2rem;
     margin: 0 1rem 0 0;
+    border-bottom: 3px solid transparent;
+
+    &.active {
+      border-bottom: 3px solid black;
+    }
+
     @media (min-width: $tablet-landscape) {
       margin: 0 2rem 0 0;
     }

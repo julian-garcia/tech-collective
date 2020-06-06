@@ -4,7 +4,6 @@ import { faUser, faMoneyBillWave, faLightbulb } from '@fortawesome/free-solid-sv
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Modal from "../components/modal"
 
 const IndexPage = () => (
   <Layout>
@@ -22,8 +21,8 @@ const IndexPage = () => (
     </div>
     <div className="section-grid home-margin">
       <div className="block-container primary tablet-landscape-up"></div>
-      <div className="block-container section-heading primary">
-        <h2 className="heading section-heading" style={{maxWidth:'600px', margin:'2rem auto 1rem'}}>If you want to sharpen your technical skills, it's hard to know what the right path is...</h2>
+      <div className="block-container section-heading-left primary">
+        <h2 className="heading" style={{maxWidth:'600px', margin:'2rem auto 0'}}>If you want to sharpen your technical skills, it's hard to know what the right path is...</h2>
       </div>
       <div className="block-container tablet-landscape-up"></div>
       <div className="block-container tablet-landscape-up"></div>
@@ -88,12 +87,6 @@ const IndexPage = () => (
       </div>
       <div className="block-container tablet-landscape-up"></div>
     </div>
-    <Modal>
-      <video controls="controls" width="100%" height="auto">
-        <source src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c2c4d373-c29e-4f1d-a559-bd4ea7e3281d/Tech_Collective_-_calmer.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200605%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200605T002548Z&X-Amz-Expires=86400&X-Amz-Signature=95eceb782a853265a0e25b80a17f3686871233246ea9c83f5205c225feb0e741&X-Amz-SignedHeaders=host" type="video/mp4" />
-        <track default kind="captions" srcLang="en" src="" label="English subtitles" />
-      </video>
-    </Modal>
   </Layout>
 )
 

@@ -19,7 +19,7 @@
   }
 }
 
-.section-heading {
+.section-heading-left {
   margin-bottom: 0;
   padding: 0 .5rem;
   text-align: center;
@@ -33,81 +33,15 @@
   }
 }
 
-.block {
-  position: relative;
-  background: white;
-  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  margin: 0;
-  padding: 2.5rem 1rem 1rem;
-
-  &-container {
-    position: relative;
-    padding: 1rem 1rem 2.5rem;
-    @media (min-width: $tablet-landscape) { padding: 0 0 1rem; }
-  }
-
-  .heading {
-    margin-top: 0;
-  }
-
-  .list {
-    display: grid;
-    grid-template-columns: 2rem 1fr;
-
-    p {
-      margin: 0 0 5px;
-    }
-
-    &-emoji {
-      line-height: 1.4rem;
-      font-size: 1.4rem;
-      margin-top: 2px;
-    }
-  }
+.section-heading-right {
+  text-align: center;
 
   @media (min-width: $tablet-portrait) {
-    margin: 1rem;
-  }
-
-  @media (min-width: $desktop) {
-    margin: 2rem 2rem;
-  }
-}
-
-.block-icon {
-  margin-top: 20px;
-  font-size: 32px;
-
-  &-container {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
     position: absolute;
-    left: 50%;
-    top: -35px;
+    top: 0;
+    left: 100%;
     transform: translateX(-50%);
-    text-align: center;
-
-    &::before{
-      content: '';
-      height: 55px;
-      width: 55px;
-      border: 3px solid black;
-      border-radius: 50%;
-      position: absolute;
-      left: 8px;
-      top: 8px;
-    }
-
-    &.dark::before{
-      border: 3px solid $primary-colour;
-    }
-  }
-
-  &.primary {
-    color: $primary-colour;
-    background: black;
+    width: 100%;
   }
 }
 
@@ -137,8 +71,19 @@
   color: black;
 }
 
+.primary-fade {
+  background: linear-gradient(180deg, $primary-colour 74.9%, rgba(white, 0) 100%);
+  color: black;
+}
+
+.primary-reverse-fade {
+  background: linear-gradient(180deg, rgba(white, 0) 0%, $primary-colour 42.39%);
+  color: black;
+}
+
 .dark {
   background: black;
+  color: $primary-colour;
 }
 
 .home-margin {
@@ -150,5 +95,39 @@
 
   @media (min-width: $tablet-portrait) {
     padding-top: 290px;
+  }
+}
+
+.page-margin { padding-top: 60px; }
+
+.desktop-move {
+  &-up {
+    margin-top: 0;
+    @media (min-width: $tablet-landscape) {
+      margin-top: -85px;
+    }
+  }
+
+  &-left {
+    @media (min-width: $tablet-landscape) {
+      margin-left: -180px;
+      margin-right: 180px;
+    }
+  }
+
+  &-down {
+    @media (min-width: $tablet-landscape) {
+      margin-top: 120px;
+      z-index: 9;
+    }
+  }
+}
+
+.desktop-pad {
+  &-vertical {
+    @media (min-width: $tablet-landscape) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
   }
 }

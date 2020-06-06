@@ -10,6 +10,20 @@ a { text-decoration: none; color: black; }
   font-weight: normal;
 }
 
+.heading-right {
+  text-align: center; 
+  padding: 0 1rem;
+
+  @media (min-width: $tablet-landscape) {
+    text-align: right; 
+    padding: 90px 8vw 70px 0;
+  }
+
+  @media (min-width: $desktop) {
+    padding: 0 8vw 70px 0;
+  }
+}
+
 .button {
   background-color: black;
   color: white;
@@ -80,11 +94,11 @@ a { text-decoration: none; color: black; }
 }
 
 .tablet-up {
-  display: none;
-  @media (min-width: $tablet-portrait) { display: inherit; }
+  display: none !important;
+  @media (min-width: $tablet-portrait) { display: inherit !important; }
 }
 
 .tablet-landscape-up {
-  display: none;
-  @media (min-width: $tablet-landscape) { display: inherit; }
+  display: none !important;
+  @media (min-width: $tablet-landscape) { display: inherit !important; }
 }
