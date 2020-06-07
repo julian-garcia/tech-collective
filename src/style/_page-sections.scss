@@ -35,14 +35,23 @@
 
 .section-heading-right {
   text-align: center;
+  top: -30px;
 
   @media (min-width: $tablet-portrait) {
     position: absolute;
-    top: 0;
     left: 100%;
     transform: translateX(-50%);
     width: 100%;
+    z-index: 1;
   }
+
+  @media (min-width: $tablet-landscape) {
+    top: 0;
+  }
+}
+
+.section-heading {
+  grid-column: 2 / span 3;
 }
 
 .solution {

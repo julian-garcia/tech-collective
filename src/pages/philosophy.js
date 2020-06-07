@@ -8,8 +8,11 @@ import SEO from "../components/seo"
 const PhilosophyPage = () => (
   <Layout>
     <SEO title="Philosophy" />
-    <h2 className="heading desktop-move-up heading-right">There are five main guiding principles of Tech Collective:</h2>
-    <div className="section-grid desktop-move-up">
+    <div className="heading-right desktop-move-up">
+      <span></span>
+      <h2 className="heading" style={{textAlign:'center'}}>There are five main guiding principles of Tech Collective:</h2>
+    </div>
+    <div className="section-grid">
       <div className="block-container tablet-landscape-up"></div>
       <div className="block-container tablet-landscape-up"></div>
       <div className="block-container desktop-move-left desktop-move-down">
