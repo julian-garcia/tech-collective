@@ -114,6 +114,8 @@
     right: 40px;
     font-size: 3rem;
     cursor: pointer;
+    z-index: 10;
+
     @media (min-width: $phone) {
       top: calc(#{$headline-height} + #{$header-height} + #{$headline-margin});
       left: calc(#{($headline-width / 2) - 40px});

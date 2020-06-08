@@ -46,3 +46,37 @@
     display: none;
   }
 }
+
+.nav-mobile {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(white, .9);
+  width: 100%;
+  height: 100%;
+  padding-top: 2rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto-fit, 60px);
+  align-items: center;
+  justify-items: center;
+  z-index: 99;
+
+  &.show {
+    display: grid;
+  }
+
+  &__item {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  & .modal-close {
+    color: black;
+  }
+
+  @media (min-width: $tablet-portrait) {
+    display: none;
+  }
+}

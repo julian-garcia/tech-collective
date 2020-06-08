@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import { showModal } from '../components/modal'
+import { showNavMenu } from '../components/mobile-nav'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlayCircle, faBars } from '@fortawesome/free-solid-svg-icons'
 import HeaderImage from "../images/header-background.svg"
@@ -30,7 +31,7 @@ const Header = ({ siteTitle }) => (
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlaOkV39i4pSkLOf_nbAlygB8jtb3RXptCnDabb-65-MT9Ww/viewform" target="_blank" className="nav-menu__item button" rel="noreferrer">Apply</a>
       </div>
     </div>
-    <FontAwesomeIcon icon={faBars} className="mobile-nav-toggle" />
+    <FontAwesomeIcon icon={faBars} className="mobile-nav-toggle" onClick={showNavMenu} />
     <h2 className="headline">A tech-upskill community for active, collaborative learners.|</h2>
     <FontAwesomeIcon icon={faPlayCircle} className="headline-button" onClick={showModal} />
   </header>

@@ -51,7 +51,12 @@
 }
 
 .section-heading {
-  grid-column: 2 / span 3;
+  grid-column: 3 / span 2;
+  padding: 0 1rem;
+  
+  @media (min-width: $tablet-landscape) {
+    padding: 0;
+  }
 }
 
 .solution {

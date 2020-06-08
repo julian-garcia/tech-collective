@@ -7,6 +7,7 @@ import { faLink } from '@fortawesome/free-solid-svg-icons'
 
 import Header from "./header"
 import Modal from "../components/modal"
+import MobileNav from "../components/mobile-nav"
 import introVideo from "../videos/intro.mp4"
 import "../style/main.scss"
 
@@ -40,6 +41,7 @@ const Layout = ({ children }) => {
           <track default kind="captions" srcLang="en" src="" label="English subtitles" />
         </video>
       </Modal>
+      <MobileNav />
     </>
   )
 }
