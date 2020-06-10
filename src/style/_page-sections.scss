@@ -130,6 +130,7 @@
   }
 
   &-down {
+    margin-top: 50px;
     @media (min-width: $tablet-landscape) {
       margin-top: 120px;
       z-index: 9;

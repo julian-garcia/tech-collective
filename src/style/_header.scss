@@ -51,7 +51,8 @@
     font-family: $title-font;
     font-size: 1rem;
     color: black;
-    display: inline-block;
+    display: flex;
+    align-items:center;
 
     @media (min-width: $phone) {
       font-size: 1.2rem;
@@ -60,8 +61,11 @@
       color: white;
     }
   }
+}
 
-  h1 { margin:0; }
+.site-title {
+  display: inline-block;
+  margin:0;
 }
 
 .logo-background {

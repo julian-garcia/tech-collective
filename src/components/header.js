@@ -18,10 +18,10 @@ const Header = ({ siteTitle }) => (
     <img src={LogoBackground} alt="" className="logo-background" />
     <div className="header-content">
       <div className="logo-title">
-        <img src={logoImgSmall} alt="" className="logo-image-mobile" />
-        <img src={logoImgLarge} alt="" className="logo-image" />
         <Link to="/" className="logo-link">
-          <h1>{siteTitle}</h1>
+          <img src={logoImgSmall} alt="" className="logo-image-mobile" />
+          <img src={logoImgLarge} alt="" className="logo-image" />
+          <h1 className="site-title">{siteTitle}</h1>
         </Link>
       </div>
       <div className="nav-menu">

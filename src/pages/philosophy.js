@@ -8,79 +8,51 @@ import SEO from "../components/seo"
 const PhilosophyPage = () => (
   <Layout>
     <SEO title="Philosophy" />
-    <div className="heading-right desktop-move-up">
-      <span></span>
-      <h2 className="heading" style={{textAlign:'center'}}>There are five main guiding principles of Tech Collective:</h2>
-    </div>
-    <div className="section-grid">
-      <div className="block-container tablet-landscape-up"></div>
-      <div className="block-container tablet-landscape-up"></div>
-      <div className="block-container desktop-move-left desktop-move-down">
-        <div className="block primary dark-border">
-          <div className="block-icon-container primary">
-            <FontAwesomeIcon icon={faExclamation} className="block-icon" />
-          </div>
-          <h3 className="heading">Take responsibility</h3>
-          <p>We believe that we learn and achieve more when we act with ownership and openly learn from mistakes.</p>
-          <p>That's why we bear members' risks with zero membership payments until they're in a good job afterwards.</p>
-        </div>
-      </div>
-      <div className="block-container" style={{display:'block'}}>
-        <div className="block primary">
-          <div className="block-icon-container primary">
-            <FontAwesomeIcon icon={faGlobe} className="block-icon" />
-          </div>
-          <h3 className="heading">Commit to community</h3>
+    <h2 className="heading principles">There are five main guiding principles of Tech Collective:</h2>
+    <div>
+      <div className="angled-block right">
+        <div className="angled-block__content">
+          <FontAwesomeIcon icon={faGlobe} className="angled-block__icon" />
+          <h3 className="heading"><span className="angled-block__number">1</span> Commit to community</h3>
           <p>We believe that people are more fulfilled and effective when they have deep relationships.</p>
           <p>That's why we foster close cohort bonding through peer-driven selection and learning.</p>
         </div>
       </div>
-      <div className="block-container tablet-landscape-up"></div>
-    </div>
-    <div className="section-grid desktop-move-up">
-      <div className="block-container primary-fade tablet-landscape-up"></div>
-      <div className="block-container primary-fade desktop-pad-vertical">
-        <div className="block">
-          <div className="block-icon-container primary">
-            <FontAwesomeIcon icon={faFistRaised} className="block-icon" />
-          </div>
-          <h3 className="heading">Empower individuals</h3>
+      <div className="angled-block left">
+        <div className="angled-block__content">
+          <FontAwesomeIcon icon={faExclamation} className="angled-block__icon" />
+          <h3 className="heading"><span className="angled-block__number">2</span> Take responsibility</h3>
+          <p>We believe that we learn and achieve more when we act with ownership and openly learn from mistakes.</p>
+          <p>That's why we bear members' risks with zero membership payments until they're in a good job afterwards.</p>
+        </div>
+      </div>
+      <div className="angled-block right">
+        <div className="angled-block__content">
+          <FontAwesomeIcon icon={faFistRaised} className="angled-block__icon" />
+          <h3 className="heading"><span className="angled-block__number">3</span> Empower individuals</h3>
           <p>We believe that people thrive when you enable them to invest in their own development.</p>
           <p>That's why we cap every member's total net contributions for their three year payment period.</p>
         </div>
       </div>
-      <div className="block-container primary-fade desktop-pad-vertical">
-        <div className="block">
-          <div className="block-icon-container primary">
-            <FontAwesomeIcon icon={faCommentDots} className="block-icon" />
-          </div>
-          <h3 className="heading">Maximum transparency</h3>
+      <div className="angled-block left">
+        <div className="angled-block__content">
+          <FontAwesomeIcon icon={faCommentDots} className="angled-block__icon" />
+          <h3 className="heading"><span className="angled-block__number">4</span> Maximum transparency</h3>
           <p>We believe that people need information to make meaningful plans and consensual commitments.</p>
           <p>That's why our applicants get multiple chances to meet their prospective peers before joining.</p>
         </div>
       </div>
-      <div className="block-container tablet-landscape-up"></div>
-      <div className="block-container tablet-landscape-up"></div>
-    </div>
-    <div className="section-grid desktop-move-up">
-      <div className="block-container tablet-landscape-up"></div>
-      <div className="block-container tablet-landscape-up"></div>
-      <div className="block-container desktop-move-left">
-        <div className="block primary dark">
-          <div className="block-icon-container dark">
-            <FontAwesomeIcon icon={faShare} className="block-icon" />
-          </div>
-          <h3 className="heading">Shared success</h3>
+      <div className="angled-block right">
+        <div className="angled-block__content">
+          <FontAwesomeIcon icon={faShare} className="angled-block__icon" />
+          <h3 className="heading"><span className="angled-block__number">5</span> Shared success</h3>
           <p>Part-time, where you can keep your income coming in</p>
           <p>Peer-driven, where you get strong support around you</p>
           <p>Pay-on-results, where you only pay if you're earning well</p>
         </div>
       </div>
-      <div className="block-container tablet-landscape-up"></div>
-      <div className="block-container tablet-landscape-up"></div>
     </div>
-    <div className="section-grid desktop-move-up">
-      <div className="block-container tablet-landscape-up"></div>
+    <div className="section-grid desktop-move-down">
       <div className="block-container tablet-landscape-up"></div>
       <div className="block-container primary-reverse-fade desktop-pad-vertical">
         <h2 className="heading section-heading-right">Philosophical Influences</h2>
@@ -101,7 +73,8 @@ const PhilosophyPage = () => (
           </a>
         </div>
       </div>
-      <div className="block-container primary-reverse-fade tablet-landscape-up"></div>
+      <div className="block-container tablet-landscape-up"></div>
+      <div className="block-container tablet-landscape-up"></div>
     </div>
   </Layout>
 )

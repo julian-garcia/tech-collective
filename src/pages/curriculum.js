@@ -13,28 +13,26 @@ const CurriculumPage = () => (
     <SEO title="Curriculum" />
     <div className="heading-right desktop-move-up">
       <span></span>
-      <div style={{display:'grid', gridTemplateColumns:'.3fr 5fr'}}>
-        <span className="heading" role="img" aria-label="" style={{margin:0}}>❌</span>
+      <div style={{display:'grid', gridTemplateColumns:'.3fr 5fr', gap:'10px'}}>
+        <span className="heading" role="img" aria-label="" style={{textAlign:'right', fontSize:'1.6rem'}}>❌</span>
         <h2 className="heading" style={{margin:0}}>We're not interested in churning out code-monkey developers.</h2>
-        <span className="heading" role="img" aria-label="" style={{margin:0}}>✅</span>
+        <span className="heading" role="img" aria-label="" style={{textAlign:'right', fontSize:'1.6rem'}}>✅</span>
         <h2 className="heading" style={{margin:0}}>Our curriculum bridges the technical and the interpersonal.</h2>
       </div>
     </div>
     <div className="section-grid desktop-move-down">
-      <div className="primary-reverse-fade desktop-pad-vertical" style={{gridColumn:'1 / span 3', padding: '0 1rem 2rem'}}>
+      <div className="primary-reverse-fade tablet-landscape-up"></div>
+      <div className="primary-reverse-fade desktop-pad-vertical section-heading-left" style={{textAlign:'left', padding:'2rem 1rem'}}>
         <h3 className="heading">You'll learn modern full-stack web development - but not just as the only end in and of itself. Through our peer-driven project-based learning, you will be challenged to strengthen your creativity, collaboration and communication.</h3>
         <h3 className="heading">These are skills not just for your 'next job' - they're for the next chapter of your career, be it in:</h3>
-        <div className="auto-grid">
-          <div className="circle primary" style={{borderColor:'black'}}>
-            <h3 className="heading">software development</h3>
-          </div>
-          <div className="circle dark">
-            <h3 className="heading">product management</h3>
-          </div>
-          <div className="circle" style={{background:'white'}}>
-            <h3 className="heading">startups</h3>
-          </div>
-          <div style={{position:'absolute', right:'-26px', bottom:'-39px'}} className="tablet-landscape-up">
+        <div className="list">
+          <span className="list-emoji" role="img" aria-label="">⚫</span>
+          <p>software development</p>
+          <span className="list-emoji" role="img" aria-label="">⚫</span>
+          <p>product management</p>
+          <span className="list-emoji" role="img" aria-label="">⚫</span>
+          <p>startups</p>
+          <div style={{position:'absolute', right:'0', bottom:'-18px'}}>
             <img src={wefImg} alt="" style={{width:'50px'}} />
             <h3 className="heading" style={{display:'inline-block', margin:'0 10px', width:'200px'}}>Future of jobs report</h3>
             <FontAwesomeIcon icon={faFilePdf} style={{fontSize:'2rem'}} />

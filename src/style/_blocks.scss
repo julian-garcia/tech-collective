@@ -10,7 +10,7 @@
 
   &-container {
     position: relative;
-    padding: 2rem 1rem 2.5rem;
+    padding: 2.5rem 1rem 2.5rem;
 
     @media (min-width: $tablet-portrait) { display: flex; }
     @media (min-width: $tablet-landscape) { padding: 1rem 0 1rem; }
@@ -30,25 +30,6 @@
 
   .heading {
     margin-top: 0;
-  }
-
-  .list {
-    display: grid;
-    grid-template-columns: 2rem 1fr;
-
-    p {
-      margin: 0 0 5px;
-    }
-
-    &-emoji {
-      line-height: 1.4rem;
-      font-size: 1.4rem;
-      margin-top: 2px;
-
-      &-small {
-        font-size: 1rem;
-      }
-    }
   }
 
   @media (min-width: $tablet-portrait) {
@@ -98,4 +79,130 @@
 
 .dark-border {
   border: 5px solid black;
+}
+
+.angled-block {
+  padding: 1rem 2rem;
+
+  &:nth-child(1) {
+    background: $primary-colour;
+  }
+  &:nth-child(2) {
+    background: black;
+    color: $primary-colour;
+  }
+  &:nth-child(3) {
+    background: $complement-colour1;
+  }
+  &:nth-child(4) {
+    background: $complement-colour2;
+  }
+  &:nth-child(5) {
+    background: $primary-colour;
+  }
+
+  &__icon {
+    font-size: 50px;
+    position: absolute;
+    right: 1rem;
+  }
+
+  @media (min-width: $tablet-portrait) {
+    position: relative;
+    width: 60vw;
+    height: 500px;
+    margin: 0 auto 0;
+    padding: 2rem;
+    transform-origin: center;
+    z-index: -1;
+
+    &:nth-child(1) {
+      background: linear-gradient(75deg, $primary-colour 10%, rgba($primary-colour, 0) 100%);
+      margin-top: -200px;
+
+      @media (min-width: $tablet-landscape) {
+        margin-top: -400px;
+      }
+    }
+    &:nth-child(2) {
+      background: linear-gradient(270deg, black 10%, rgba(black, 0) 100%);
+      color: $primary-colour;
+    }
+    &:nth-child(3) {
+      background: linear-gradient(75deg, $complement-colour1 10%, white 100%);
+    }
+    &:nth-child(4) {
+      background: linear-gradient(270deg, $complement-colour2 10%, white 100%);
+    }
+    &:nth-child(5) {
+      background: linear-gradient(75deg, $primary-colour 10%, white 100%);
+    }
+
+    &.left {
+      transform: rotate(45deg);
+      margin-left: -20vw;
+      width: 70vw;
+
+      @media (min-width: $tablet-landscape) {
+        margin-left: -15vw;
+      }
+    }
+
+    &.right {
+      transform: rotate(-45deg);
+      margin-left: 45vw;
+
+      @media (min-width: $tablet-landscape) {
+        margin-left: 55vw;
+      }
+    }
+
+    &__content {
+      max-width: 350px;
+
+      @media (min-width: $desktop) {
+        max-width: 420px;
+      }
+    }
+
+    &__number {
+      font-size: 80px;
+      color: black;
+    }
+
+    &__icon {
+      font-size: 300px;
+      margin: 0;
+      position: absolute;
+      color: rgba(black, .2);
+      .right & {
+        right: 0;
+        top: -90px;
+      }
+      .left & {
+        left: -110px;
+        top: -150px;
+      }
+    }
+
+    &.right &__content {
+      margin-top: -150px;
+      position: absolute;
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin: bottom left;
+    }
+
+    &.left &__content {
+      margin: 0 2rem 0 0;
+      position: absolute;
+      right: 0;
+      transform: rotate(-45deg);
+      transform-origin: center;
+
+      @media (min-width: $desktop) {
+        right: 200px;
+      }
+    }
+  }
 }
