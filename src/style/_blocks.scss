@@ -12,6 +12,31 @@
     position: relative;
     padding: 2.5rem 1rem 2.5rem;
 
+    .faqs & {
+      padding: 0;
+    }
+
+    .faqs-filter {
+      font-family: 'prompt';
+      font-size: 1.3rem;
+      border-radius: 5px;
+      border: 3px solid $primary-colour;
+    }
+
+    .faqs-tags{
+      align-self: flex-end;
+    }
+
+    .faqs-tag {
+      display: inline-block;
+      font-family: 'hind-madurai';
+      background: black;
+      color: $primary-colour;
+      margin: .5rem .2rem 0 0;
+      padding: .1rem .5rem 0;
+      border-radius: 20px;
+    }
+
     @media (min-width: $tablet-portrait) { display: flex; }
     @media (min-width: $tablet-landscape) { padding: 1rem 0 1rem; }
   }
@@ -30,6 +55,17 @@
 
   .heading {
     margin-top: 0;
+
+    .faqs & {
+      margin: 0;
+    }
+  }
+
+  .faqs & {
+    display: grid;
+    padding: 1rem 3rem 1rem 1rem;
+    margin: 1rem;
+    cursor: pointer;
   }
 
   @media (min-width: $tablet-portrait) {
@@ -68,6 +104,25 @@
 
     &.dark::before{
       border: 3px solid $primary-colour;
+    }
+  }
+
+  .faqs &-container {
+    left: 97%;
+    bottom: -10px;
+    top: unset;
+    border: 5px solid black;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+
+    &:before {
+      border: none;
+    }
+
+    .block-icon {
+      margin-top: 25%;
+      font-size: 24px;
     }
   }
 
