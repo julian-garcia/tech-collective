@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
         </div>
         <p>&copy; Copyright {new Date().getFullYear()}. Tech Collective Group LTD</p>
       </footer>
-      <Modal>
+      <Modal id="video">
         <video controls="controls" width="100%" height="auto">
           <source src={introVideo} type="video/mp4" />
           <track default kind="captions" srcLang="en" src="" label="English subtitles" />

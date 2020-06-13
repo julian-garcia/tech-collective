@@ -13,11 +13,12 @@
     position: absolute;
     background: rgba(black, .5);
     width: 100vw;
-    min-height: 100vh;
+    max-height: 90vh;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 3.5rem 1rem 1rem;
+    overflow-y: scroll;
 
     @media (min-width: $tablet-portrait) {
       width: unset;

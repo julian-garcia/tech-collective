@@ -135,6 +135,11 @@
       margin-top: 120px;
       z-index: 9;
     }
+    .faqs & {
+      margin-top: 150px;
+      // @media (min-width: $tablet-landscape) {
+      // }
+    }
   }
 }
 

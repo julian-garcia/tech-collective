@@ -1,0 +1,265 @@
+{
+  "title": "FAQs",
+  "content": [
+    {
+      "question": "How long will the programme last?",
+      "answer": ["12 months"],
+      "tags": ["Programme"]
+    }, 
+    {
+      "question": "What weekly commitment is involved?",
+      "answer": [
+        "We're targeting just over 10 hours a week, although you may wish (and are encouraged) to do more. Most of these you will be able to distribute throughout the week to suit your schedule, although between 2-4 of these will be coordinated with your cohort for:", 
+        "<ol><li>Pair programming with a designated peer;</li><li>A weekly cohort retrospective.</li></ol>",
+        "Additionally, you will be strongly and repeatedly encouraged to build the habit of coding every single day (even if it is just for 10 minutes on some days)."
+      ],
+      "tags": ["Programme"]
+    },
+    {
+      "question": "What can I expect at the end of the programme?",
+      "answer": [
+        "You will graduate as a proficient coder with:", 
+        "- a personal portfolio including full-stack web development projects;",
+        "- job-relevant experience of software teams, processes and toolings; and",
+        "- a cohort of highly motivated peers with an ongoing stake in your career.",
+        "These skills are specifically optimised for junior developer roles, but will be useful to you in any role where you have to talk about, understand or work with technology."
+      ],
+      "tags": ["Programme", "Curriculum"]
+    },
+    {
+      "question": "Am I eligible? Who is this targeted at?",
+      "answer": [
+        "For now, we're expecting to focus on career changes in the UK, but you can apply if that doesn't fit you - although it will help if you are in Europe and a relatively close time-zone to the UK.",
+        "We are actively interested in hearing from people of backgrounds that are underrepresented in tech."
+      ],
+      "tags": ["Applying"]
+    },
+    {
+      "question": "What do I pay, and when? When do I stop paying?",
+      "answer": [
+        "You don't pay whilst you're learning, or if you're earning less than £30k annually at the end of the programme.",
+        "At application",
+        "We are charged £150 by our financing partner for background checks on successful applicants, which we ask you to cover. We make no profit on this.",
+        "After the 12 months: pay 9% of your gross income if you earn over £30k, for 3 years, up to £5k total. (See When do I stop paying?)",
+        "Because of the collective income share pot, your net payments (payments in - payments out) will be up to 50% less than this cap, but the exact sum will depend on the success of your peers."
+      ],
+      "tags": ["Payments"]
+    },
+    {
+      "question": "What goes into the collective income share pot?",
+      "answer": [
+        "50% of your payments will go into the collective income share pot for your cohort"
+      ],
+      "tags": ["Payments", "Sharing"]
+    },
+    {
+      "question": "What do I get back from the collective income share pot?",
+      "answer": [
+        "All funds from your cohort's collective pot (i.e. 50% of Tech Collective cohort revenues) will be distributed equally amongst your cohort (even those not currently paying into it, either through capping out their contributions or falling beneath the income threshold).",
+        "If you're all earning the exact same, then this is effectively an immediate 50% rebate on your payments. If earnings are unequal, then the effective rebate will be larger for some and smaller for others.",
+        "We think that distributing this pot like this is important because:",
+        "1. It pools your career-change risk amongst a group of motivated peers",
+        "2. It aligns incentives, such that peers have a direct interest in helping you succeed",
+        "3. You learn and earn together, symbolising the Tech Collective Values",
+        "However, we acknowledge that this means **there is a risk of outsized payments for some**.",
+        "We seek to mitigate this through:",
+        "- a 3 year and £5k cap on payments, so you aren't tied down in perpetuity",
+        "- a rigorous application process, which includes all prospective members vetting their prospective peers - so you get to vet the people who you'll be sharing your income with"
+      ],
+      "tags": ["Payments", "Sharing"]
+    },
+    {
+      "question": "How will income sharing be applied in practice?",
+      "answer": [
+        "We will be working with a financing provider who draw up, enforce and collect payments following income share agreements."
+      ],
+      "tags": ["Payments", "Sharing"]
+    },
+    {
+      "question": "How is Tech Collective different to a bootcamp?",
+      "answer": [
+        "Tech Collective promotes active, collaborative learning. We think the traditional bootcamp model of crammed, passive and self-centred education is broken."
+      ],
+      "tags": ["Bootcamps", "Comparisons"],
+      "link": "https://techcollective.substack.com/p/3e2fc406-d9cf-490a-9bed-16403b1951ed"
+    },
+    {
+      "question": "How is Tech Collective different to studying by myself?",
+      "answer": [
+        "Tech Collective will be extremely instructor-light, and most of the materials are the high quality things that are available online to everybody (e.g. FreeCodeCamp and Exercism). This helps to keep costs down for members.",
+        "You can use all of those things for free by yourself - they are by great consensus recommended for learning how to code (even above paid options) - and so, if you are considering Tech Collective, *you should definitely consider studying by yourself as a viable alternative.",
+        "Tech Collective is not going to be the optimal solution for everybody looking to go into coding. It's meant to be a third option to self-study and bootcamps.",
+        "There are three reasons why Tech Collective will be right *for some*:",
+        "1. **Self-discipline:** it's easier to motivate yourself if you've committed to a formal programme (like Tech Collective or a bootcamp) than if you're entirely self-studying.",
+        "2. **Structure:** Tech Collective will provided an opinionated structure to the curriculum (practice these specific things in this specific order - *and definitely don't do that other thing*) which is hard to obtain by yourself.",
+        "3. **Support:** Tech Collective will vigorously vet all its members through a multi-stage application process, so you know you have committed peers who can add value to your journey (e.g. in team projects). Self-organised communities can have low-entry points and associated high-exit rates.",
+        "Tech Collective aims to give a realistic representation of working in software development: team projects, pair programming and refactoring other people's code.",
+        "But lots of people transition into software development through sustained, disciplined self-study - which is great for them, and we hope that they continue to do so! 🎉"
+      ],
+      "tags": ["Comparisons", "Self-study"],
+      "link": "https://www.slant.co/topics/965/~best-websites-to-learn-to-code"
+    },
+    {
+      "question": "Is this a UK version of Lambda School?",
+      "answer": [
+        "No.",
+        "Lambda School, as a U.S. coding bootcamp using an income-sharing agreement model, are a helpful reference point, but there are some important differences:",
+        "<strong>Learning model</strong>",
+        "- Tech Collective uses **cooperative project and peer-driven learning**, surrounding you with peers picked from a lengthy application process (where you vet your own peers), to simulate the workplace environment.",
+        "- Lambda School uses **mandatory class instruction** in a way that more closely resembles a traditional university.",
+        "<strong>Collective income-sharing</strong>",
+        "- Tech Collective revenue is *shared with the cohort*. We're **a tech-upskill community where you learn and earn together**.",
+        "- Lambda School *keeps all tuition fees*, using an **instructor-class bootcamp model**. (Those coding instructors don't come cheap.)",
+        "Lambda School is worth researching as part of your due diligence before committing to Tech Collective."
+      ],
+      "tags": ["Comparisons"]
+    },
+    {
+      "question": "Is this a part-time version of Founders and Coders?",
+      "answer": [
+        "No.",
+        "Founders and Coders, as a (free!) peer-driven bootcamp, are a helpful reference point, but there are some important differences:",
+        "<strong>Risk profile</strong>",
+        "- Tech Collective reduces your career changing risk by allowing you **study part-time** and aligning incentives through a pooled **collective income share**.",
+        "- Founders and Coders is a full-time commitment. There is no income sharing agreement involved (because you never pay anything). This might be better for you if you are confident that you will be successful after a short intensive bootcamp.",
+        "Peer stake",
+        "- Tech Collective members are actively involved in the selection process of a cohort, so you help to **choose your own peers**. This is important because, due to **collective income sharing**, you all have an economic stake in each other.",
+        "- Founders and Coders students are selected by staff and alumni. This might be better for you if you feel uncomfortable about to participating in an application process that has strong peer-influences (e.g. due to legitimate concerns about unconscious bias).",
+        "Founders and Coders is worth researching as part of your due diligence before committing to Tech Collective."
+      ],
+      "tags": ["Comparisons"]
+    },
+    {
+      "question": "What will I study?",
+      "answer": [
+        "You will be given an opinionated curriculum to follow, with the goal of giving you the skills you need to get a job as a software developer as quickly and easily as possible.",
+        "This means learning **specific technologies**, **development practices** and **job-search skills**."
+      ],
+      "tags": ["Curriculum"],
+      "internalLink": "curriculum"
+    },
+    {
+      "question": "Does peer learning work in coding?",
+      "answer": [
+        "Yes. Founders and Coders have run effective (and free!) peer-led bootcamps for a few years, to some very strong reviews. (If you want a full-time immersive bootcamp experience in London, you should definitely check them out.)",
+        "The effectivess does rely on finding a cohort of motivated people who commit to working with each other, which is why we take our application process so seriously."
+      ],
+      "tags": ["Effectiveness"]
+    },
+    {
+      "question": "Where will this take place? Will this be online?",
+      "answer": [
+        "Tech Collective will be fully remote.",
+        "(At some point in the future, there may be physical get-togethers, but even then it will remain primarily remote.)"
+      ],
+      "tags": ["Location"]
+    },
+    {
+      "question": "How do you use peer referrals, and why?",
+      "answer": [
+        "Our hypothesis is that it will be easier for a Tech Collective member to see through their commitment if their cohort includes at least one person with whom they have a pre-existing tie, because:",
+        "1. It gives you an immediate link to the cohort;",
+        "2. It strengthens the accountability mechanisms; and",
+        "3. It's harder to let down somebody who you already know.",
+        "As such, applicants who can refer (or are referred by) other applicants will have a slight edge in the application process - because, when it comes to selection of a cohort, we will look to try to include some of these pre-existing ties, in order to maximise the success of the cohort as a whole.",
+        "At the end of your application form, you will have the opportunity to indicate:",
+        "- whether you have been referred;",
+        "- if so, by whom you have been referred; and",
+        "- how you know your referrer.",
+        "If it looks like a legitimate referral, then you will both be credited in the application process with that."
+      ],
+      "tags": ["Applying","Referrals"]
+    },
+    {
+      "question": "When do I stop paying?",
+      "answer": [
+        "You stop paying when *either*:",
+        "(a) 3 years have passed since programme end; or",
+        "(b) you have contributed £5k into the total pot.",
+        "**This contribution cap of £5,000 is expected to increase in future**. We're keeping it artificially low for the first cohort(s) for the following reasons:",
+        "- **demonstrating success:** we need to demonstrate success of members to prove our worth in future",
+        "- **piloting materials:** we will be piloting some curriculum materials which may get refined over time"
+      ],
+      "tags": ["Payments"]
+    },
+    {
+      "question": "Why are there so many stages in the application process?",
+      "answer": [
+        "We have multiple stages for benefit of all of the following:",
+        "- **Yourself:** we want you to know what you're committing to",
+        "- **Your peers:** we want every cohort to form an effective learning community",
+        "- **Tech Collective:** we want to minimise dropouts and maximise outcomes",
+        "<strong>For yourself: we want you to know what you're committing to</strong>",
+        "At 10 hours a week, for 12 months, Tech Collective is a serious commitment.",
+        "It's important that you be able to make an informed decision about this commitment.",
+        "That's why we have a lengthy application process to try to give you a good sense of:",
+        "- what will I be learning?",
+        "- who will I be learning with?",
+        "- is this a manageable commitment?",
+        "(If you are finding the application process too onerous, then you might not have enough time right now to commit to Tech Collective.)",
+        "<strong>For your peers: we want every cohort to form an effective learning community</strong>",
+        "Because of our peer-driven learning model, it is *critically important* that we have a thorough and rigorous application process. We would be failing our members if we did not surround them with people who have the right commitment, values and attitude.",
+        "That's why we have a lengthy application process where you get to meet your prospective peers, and they get to meet you, to ensure that the cohorts we admit have the best possible odds of forming an effective learning community.",
+        "<strong>For Tech Collective: we want to minimise dropouts and maximise outcomes</strong>",
+        "We don't make any money from you upfront. We only succeed if our members succeed.",
+        "We only make money if:",
+        "- admitted members commit seriously to Tech Collective; and",
+        "- every cohort forms an effective learning community.",
+        "That's why it's in *your* interest, your *peers*' interest, **and** *our* interest for there to be a rigorous application process with multiple stages."
+      ],
+      "tags": ["Applying"]
+    },
+    {
+      "question": "When will the programme start?",
+      "answer": [
+        "The first cohort is expected to start in mid-late July.",
+        "The second cohort is expected to start 1-3 months after."
+      ],
+      "tags": ["Dates","Programme"]
+    },
+    {
+      "question": "What is the application deadline?",
+      "answer": [
+        "Applications will be considered on a rolling basis. We expect that it could take up to a month for the different stages of the application process to be completed, so if you plan on making the first cohort, we would recommend submitting stage one of your application no later than the end of June."
+      ],
+      "tags": ["Dates","Applying"]
+    },
+    {
+      "question": "How does/will the Outreach Fund work?",
+      "answer": [
+        "The Outreach Fund's goals are to help make tech more representative of society and support applicants who may find the £150 background screening prohibitive.",
+        "We will be building the fund by contribution matching from members - every new member will be encouraged to contribute a suggested £50 donation to the Outreach Fund, which will be matched by Tech Collective.",
+        "The Outreach Fund will be used to ensure we are reaching applicants from all sections of society and supporting prospective members who find the initial £150 prohibitive."
+      ],
+      "tags": ["Outreach"]
+    },
+    {
+      "question": "I am unable to pay the full £150 background check cost - can you assist?",
+      "answer": [
+        "We make no money on the £150 background check cost - which is charged to us by our financing partner - and so our cash flow needs mean we ask you to cover this where you can.",
+        "However, we recognise that:",
+        "- we have a responsibility to help make tech more representative; and",
+        "- £150 might be prohibitive for certain applicants in particular financial situations.",
+        "Over time, we will be building up an Outreach Fund for this explicit purpose.",
+        "In the short-term, since we have no income until our members start earning, we might not be able to help as much as we'd like. but we will try to work with you to find a way through if it is prohibitive."
+      ],
+      "tags": ["Payments","Outreach"]
+    },
+    {
+      "question": "I don't want to be a software developer. Is this still for me / can I still apply?",
+      "answer": [
+        "Yes! We don't think that everybody should be a software developer or engineer. For some people, it might be more impactful to explore product management, entrepreneurship or public policy. These roles, and many others, are all ones where you can gain an edge with technical knowledge and skills even if you aren't writing code as a full-time job."
+      ],
+      "tags": ["Applying","Employment"]
+    },
+    {
+      "question": "What job application support will I get?",
+      "answer": [
+        "We're expecting lots, but not all, of our members to seek employment as junior developers as they get towards the end of the programme.",
+        "We're currently working with a talent partner to bring their expertise in hiring and recruitment to Tech Collective members.",
+        "The most important thing is the direct employability built into the programme."
+      ],
+      "tags": ["Employment"]
+    }
+  ]
+}

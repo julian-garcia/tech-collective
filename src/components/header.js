@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import { showModal } from '../components/modal'
+import { showModalById } from '../components/modal'
 import { showNavMenu } from '../components/mobile-nav'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlayCircle, faBars } from '@fortawesome/free-solid-svg-icons'
@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => (
     </div>
     <FontAwesomeIcon icon={faBars} className="mobile-nav-toggle" onClick={showNavMenu} />
     <h2 className="headline">A tech-upskill community for active, collaborative learners.|</h2>
-    <FontAwesomeIcon icon={faPlayCircle} className="headline-button" onClick={showModal} />
+    <FontAwesomeIcon icon={faPlayCircle} className="headline-button" onClick={() => showModalById('video')} />
   </header>
 )
 

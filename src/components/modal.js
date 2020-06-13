@@ -24,11 +24,9 @@ function closeModal() {
   document.querySelector('video').pause();
 }
 
-export function showModal() {
-  document.querySelector('.modal').classList.add('show');
-  document.querySelector('video').play();
-}
-
-export function showFAQModal(id) {
+export function showModalById(id) {
   document.getElementById(id).classList.add('show');
+  if (id === 'video') {
+    document.querySelector('video').play();
+  }
 }

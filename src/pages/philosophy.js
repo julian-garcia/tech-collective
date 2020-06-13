@@ -1,6 +1,10 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faExclamation, faCommentDots, faShare, faFistRaised, faGlobe, faLink } from '@fortawesome/free-solid-svg-icons'
+import { faLink } from '@fortawesome/free-solid-svg-icons'
+import { RiServiceLine } from 'react-icons/ri';
+import { FaMountain, FaSlideshare } from 'react-icons/fa';
+import { FiSunrise } from 'react-icons/fi';
+import { GrView } from 'react-icons/gr';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -12,7 +16,7 @@ const PhilosophyPage = () => (
     <div>
       <div className="angled-block right">
         <div className="angled-block__content">
-          <FontAwesomeIcon icon={faGlobe} className="angled-block__icon" />
+          <RiServiceLine className="angled-block__icon" />
           <h3 className="heading"><span className="angled-block__number">1</span> Commit to community</h3>
           <p>We believe that people are more fulfilled and effective when they have deep relationships.</p>
           <p>That's why we foster close cohort bonding through peer-driven selection and learning.</p>
@@ -20,7 +24,7 @@ const PhilosophyPage = () => (
       </div>
       <div className="angled-block left">
         <div className="angled-block__content">
-          <FontAwesomeIcon icon={faExclamation} className="angled-block__icon" />
+          <FaMountain className="angled-block__icon" />
           <h3 className="heading"><span className="angled-block__number">2</span> Take responsibility</h3>
           <p>We believe that we learn and achieve more when we act with ownership and openly learn from mistakes.</p>
           <p>That's why we bear members' risks with zero membership payments until they're in a good job afterwards.</p>
@@ -28,7 +32,7 @@ const PhilosophyPage = () => (
       </div>
       <div className="angled-block right">
         <div className="angled-block__content">
-          <FontAwesomeIcon icon={faFistRaised} className="angled-block__icon" />
+          <FiSunrise className="angled-block__icon" />
           <h3 className="heading"><span className="angled-block__number">3</span> Empower individuals</h3>
           <p>We believe that people thrive when you enable them to invest in their own development.</p>
           <p>That's why we cap every member's total net contributions for their three year payment period.</p>
@@ -36,7 +40,7 @@ const PhilosophyPage = () => (
       </div>
       <div className="angled-block left">
         <div className="angled-block__content">
-          <FontAwesomeIcon icon={faCommentDots} className="angled-block__icon" />
+          <GrView className="angled-block__icon" />
           <h3 className="heading"><span className="angled-block__number">4</span> Maximum transparency</h3>
           <p>We believe that people need information to make meaningful plans and consensual commitments.</p>
           <p>That's why our applicants get multiple chances to meet their prospective peers before joining.</p>
@@ -44,7 +48,7 @@ const PhilosophyPage = () => (
       </div>
       <div className="angled-block right">
         <div className="angled-block__content">
-          <FontAwesomeIcon icon={faShare} className="angled-block__icon" />
+          <FaSlideshare className="angled-block__icon" />
           <h3 className="heading"><span className="angled-block__number">5</span> Shared success</h3>
           <p>Part-time, where you can keep your income coming in</p>
           <p>Peer-driven, where you get strong support around you</p>

@@ -229,7 +229,8 @@
       font-size: 300px;
       margin: 0;
       position: absolute;
-      color: rgba(black, .2);
+      opacity: .15;
+
       .right & {
         right: 0;
         top: -90px;
