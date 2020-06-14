@@ -11,9 +11,9 @@
 
   &-content {
     position: absolute;
-    background: rgba(black, .5);
+    background: transparent;
     width: 100vw;
-    max-height: 90vh;
+    max-height: 100vh;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

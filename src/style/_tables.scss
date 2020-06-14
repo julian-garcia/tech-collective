@@ -1,0 +1,75 @@
+table { display: block;  @media (min-width: $tablet-landscape) { display: table;} }
+td, th { display: block;  @media (min-width: $tablet-landscape) { display: table-cell;} }
+thead { display: none;  @media (min-width: $tablet-landscape) { display: table-header-group;} }
+tbody { display: block;  @media (min-width: $tablet-landscape) { display: table-row-group;} }
+tr { 
+  display: block; margin-bottom: 1rem;  
+  @media (min-width: $tablet-landscape) { 
+    display: table-row; vertical-align: top;
+  } 
+}
+
+.table {
+  width: 100%;
+  border: none;
+  table-layout: fixed;
+  padding: 0;
+
+  @media (min-width: $tablet-portrait) { padding: 0 1rem; }
+  @media (min-width: $desktop) { padding: 0 1.5rem; }
+
+  & tr {
+    padding: 1rem 2rem;
+    @media (min-width: $tablet-portrait) { padding: 1rem 2rem; }
+    @media (min-width: $tablet-landscape) { padding: 0; }
+  }
+}
+
+.table th {
+  background-color: black;
+  color: white;
+  border: 5px solid white;
+  padding: 1rem;
+  text-align: left;
+  font-family: 'prompt';
+  font-weight: normal;
+  font-size: 1.2rem;
+
+  @media (min-width: $tablet-landscape) { 
+    padding: 1.5rem 2rem;
+    &:nth-child(1) { width: 20% }
+    &:nth-child(2) { width: 60% }
+  }
+}
+
+.table tr {
+  &:nth-child(3n + 1) {
+    background-color: $primary-colour;
+    color: black;
+  }
+  &:nth-child(3n + 2) {
+    background-color: $complement-colour1;
+    color: black;
+  }
+  &:nth-child(3n + 3) {
+    background-color: $complement-colour2;
+    color: black;
+  }
+}
+
+.table td {
+  padding: 1rem;
+  border: none;
+  font-family: 'hind-madurai';
+
+  &:nth-child(1) {
+    font-family: 'prompt';
+    font-weight: normal;
+    font-size: 1.2rem;
+  }
+
+  @media (min-width: $tablet-landscape) { 
+    padding: 1.5rem 2rem;
+    border: 5px solid white;
+  }
+}

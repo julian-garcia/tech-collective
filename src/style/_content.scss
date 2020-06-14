@@ -5,6 +5,15 @@ p, a {
 
 a { text-decoration: none; color: black; }
 
+.link-text {
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+  &:hover {
+    text-shadow: 0px 0px 2px rgba($primary-colour, 0.9);
+  }
+}
+
 .heading {
   font-family: $heading-font;
   font-weight: normal;

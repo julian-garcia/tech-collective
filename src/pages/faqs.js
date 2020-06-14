@@ -18,7 +18,7 @@ const FaqsPage = () => {
   return (
     <div className="faqs">
       <Layout>
-        <SEO title="Home" />
+        <SEO title="FAQs" />
         <div className="section-grid desktop-move-down">
           <div className="block-container dark tablet-landscape-up"></div>
           <div className="block-container dark">

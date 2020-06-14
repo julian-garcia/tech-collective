@@ -25,10 +25,10 @@ const Header = ({ siteTitle }) => (
         </Link>
       </div>
       <div className="nav-menu">
-        <Link to="/philosophy" className="nav-menu__item" activeClassName='active'>Philosophy</Link>
-        <Link to="/curriculum" className="nav-menu__item" activeClassName='active'>Curriculum</Link>
-        <Link to="/faqs" className="nav-menu__item" activeClassName='active'>FAQs</Link>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlaOkV39i4pSkLOf_nbAlygB8jtb3RXptCnDabb-65-MT9Ww/viewform" target="_blank" className="nav-menu__item button" rel="noreferrer">Apply</a>
+        <Link to="/philosophy/" className="nav-menu__item" activeClassName='active'>Philosophy</Link>
+        <Link to="/curriculum/" className="nav-menu__item" activeClassName='active'>Curriculum</Link>
+        <Link to="/faqs/" className="nav-menu__item" activeClassName='active'>FAQs</Link>
+        <Link to="/apply" className="nav-menu__item button">Apply</Link>
       </div>
     </div>
     <FontAwesomeIcon icon={faBars} className="mobile-nav-toggle" onClick={showNavMenu} />

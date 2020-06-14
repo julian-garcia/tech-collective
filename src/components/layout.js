@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import { Link } from "gatsby"
 import { useStaticQuery, graphql } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
@@ -27,7 +28,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <main className="page-content">{children}</main>
       <footer className="footer">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlaOkV39i4pSkLOf_nbAlygB8jtb3RXptCnDabb-65-MT9Ww/viewform" target="_blank" className="button primary" rel="noreferrer" style={{marginBottom:'40px'}}>Apply Now</a>
+        <Link to="/apply" className="button primary" style={{marginBottom:'40px', padding:'.5rem 2.5rem'}}>Apply</Link>
         <div>
           <a href="https://twitter.com/richardcrng"><FontAwesomeIcon icon={faTwitter} role="button" aria-label="Twitter" className="footer-social-icon" /></a>
           <a href="https://www.linkedin.com/in/richardcrng"><FontAwesomeIcon icon={faLinkedinIn} role="button" aria-label="LinkedIn" className="footer-social-icon" /></a>
