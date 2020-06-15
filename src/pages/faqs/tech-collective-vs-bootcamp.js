@@ -16,10 +16,10 @@ const Faq1Page = () => (
       <div className="block-container" style={{paddingBottom:'0'}}>
         <div className="block">
           <p>Tech Collective promotes active, collaborative learning.</p>
-          <p>We think <a href='https://techcollective.substack.com/p/3e2fc406-d9cf-490a-9bed-16403b1951ed' class='link-text' target='_blank' rel="noreferrer">the traditional bootcamp model of crammed, passive and self-centred education is broken.</a></p>
+          <p>We think <a href='https://techcollective.substack.com/p/3e2fc406-d9cf-490a-9bed-16403b1951ed' className='link-text' target='_blank' rel="noreferrer">the traditional bootcamp model of crammed, passive and self-centred education is broken.</a></p>
         </div>
       </div>
-      <div className="block-container">
+      <div className="block-container" style={{paddingBottom:'0'}}>
         <div className="block">
           <p>Tech Collective is a <strong>tech-upskill community</strong> for active, collaborative learners.</p>
           <p>It's not a bootcamp - it's a third option to self-study and bootcamps.</p>
@@ -28,7 +28,7 @@ const Faq1Page = () => (
       </div>
       <div className="block-container" style={{paddingBottom:'0'}}>
         <div className="block">
-          <p>In the comparison table below, some specific bootcamps have variations, e.g. <a href='https://www.foundersandcoders.com/' class='link-text' target='_blank' rel="noreferrer">Founders and Coders</a> uses a non-traditional model.</p>
+          <p>In the comparison table below, some specific bootcamps have variations, e.g. <a href='https://www.foundersandcoders.com/' className='link-text' target='_blank' rel="noreferrer">Founders and Coders</a> uses a non-traditional model.</p>
           <p>You should do your own research into particular bootcamps that you are considering.</p>
         </div>
       </div>
@@ -36,7 +36,7 @@ const Faq1Page = () => (
     <div className="section-grid">
       <div className="block-container tablet-landscape-up"></div>
       <div className="block-container full-width">
-        <table className="table" border="1">
+        <table className="table bootcamp" border="1">
           <thead>
             <tr>
               <th style={{width:'20%'}}><BsFillQuestionCircleFill /> Question</th>
@@ -49,7 +49,7 @@ const Faq1Page = () => (
               <td>What educational expertise is there?</td>
               <td>
                 <p>Tech Collective is built on two pillars of educational research:</p>
-                <div className="list" style={{paddingBottom:'0.5rem'}}>
+                <div className="list" style={{paddingBottom:'0'}}>
                   <FaDotCircle /><p>Spaced repetition: learning is demonstrably more effective if it is spread out over a larger time period; and</p>
                   <FaDotCircle /><p>Cognitive load: thinking and learning is less effective if we are overloaded with information.</p>
                 </div>
