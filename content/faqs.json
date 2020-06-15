@@ -55,18 +55,10 @@
     {
       "question": "What do I get back from the collective income share pot?",
       "answer": [
-        "All funds from your cohort's collective pot (i.e. 50% of Tech Collective cohort revenues) will be distributed equally amongst your cohort (even those not currently paying into it, either through capping out their contributions or falling beneath the income threshold).",
-        "If you're all earning the exact same, then this is effectively an immediate 50% rebate on your payments. If earnings are unequal, then the effective rebate will be larger for some and smaller for others.",
-        "We think that distributing this pot like this is important because:",
-        "1. It pools your career-change risk amongst a group of motivated peers",
-        "2. It aligns incentives, such that peers have a direct interest in helping you succeed",
-        "3. You learn and earn together, symbolising the Tech Collective Values",
-        "However, we acknowledge that this means **there is a risk of outsized payments for some**.",
-        "We seek to mitigate this through:",
-        "- a 3 year and £5k cap on payments, so you aren't tied down in perpetuity",
-        "- a rigorous application process, which includes all prospective members vetting their prospective peers - so you get to vet the people who you'll be sharing your income with"
+        "All funds from your cohort's collective pot (i.e. 50% of Tech Collective cohort revenues) will be distributed equally amongst your cohort (even those not currently paying into it, either through capping out their contributions or falling beneath the income threshold)."
       ],
-      "tags": ["Payments", "Sharing"]
+      "tags": ["Payments", "Sharing"],
+      "internalLink": "/faqs/collective-income"
     },
     {
       "question": "How will income sharing be applied in practice?",
@@ -78,26 +70,25 @@
     {
       "question": "How is Tech Collective different to a bootcamp?",
       "answer": [
-        "Tech Collective promotes active, collaborative learning. We think the traditional bootcamp model of crammed, passive and self-centred education is broken."
+        "Tech Collective promotes active, collaborative learning. <a href='https://techcollective.substack.com/p/3e2fc406-d9cf-490a-9bed-16403b1951ed' class='link-text' target='_blank' >We think the traditional bootcamp model of crammed, passive and self-centred education is broken.</a>"
       ],
       "tags": ["Bootcamps", "Comparisons"],
-      "link": "https://techcollective.substack.com/p/3e2fc406-d9cf-490a-9bed-16403b1951ed"
+      "internalLink": "/faqs/tech-collective-vs-bootcamp"
     },
     {
       "question": "How is Tech Collective different to studying by myself?",
       "answer": [
-        "Tech Collective will be extremely instructor-light, and most of the materials are the high quality things that are available online to everybody (e.g. FreeCodeCamp and Exercism). This helps to keep costs down for members.",
-        "You can use all of those things for free by yourself - they are by great consensus recommended for learning how to code (even above paid options) - and so, if you are considering Tech Collective, *you should definitely consider studying by yourself as a viable alternative.",
+        "Tech Collective will be extremely instructor-light, and most of the materials are the high quality things that are available online to everybody (e.g. <a href='https://www.freecodecamp.org/' class='link-text' target='_blank'>FreeCodeCamp</a> and <a href='https://exercism.io/' class='link-text' target='_blank'>Exercism</a>). This helps to keep costs down for members.",
+        "You can use all of those things for free by yourself - they are by great consensus recommended for learning how to code (<a href='https://www.slant.co/topics/965/~best-websites-to-learn-to-code' class='link-text' target='_blank'>even above paid options</a>) - and so, if you are considering Tech Collective, *you should definitely consider studying by yourself as a viable alternative.",
         "Tech Collective is not going to be the optimal solution for everybody looking to go into coding. It's meant to be a third option to self-study and bootcamps.",
         "There are three reasons why Tech Collective will be right *for some*:",
-        "1. **Self-discipline:** it's easier to motivate yourself if you've committed to a formal programme (like Tech Collective or a bootcamp) than if you're entirely self-studying.",
-        "2. **Structure:** Tech Collective will provided an opinionated structure to the curriculum (practice these specific things in this specific order - *and definitely don't do that other thing*) which is hard to obtain by yourself.",
-        "3. **Support:** Tech Collective will vigorously vet all its members through a multi-stage application process, so you know you have committed peers who can add value to your journey (e.g. in team projects). Self-organised communities can have low-entry points and associated high-exit rates.",
+        "1. <strong>Self-discipline:</strong> it's easier to motivate yourself if you've committed to a formal programme (like Tech Collective or a bootcamp) than if you're entirely self-studying.",
+        "2. <strong>Structure:</strong> Tech Collective will provided an opinionated structure to the curriculum (practice these specific things in this specific order - *and definitely don't do that other thing*) which is hard to obtain by yourself.",
+        "3. <strong>Support:</strong> Tech Collective will vigorously vet all its members through a multi-stage application process, so you know you have committed peers who can add value to your journey (e.g. in team projects). Self-organised communities can have low-entry points and associated high-exit rates.",
         "Tech Collective aims to give a realistic representation of working in software development: team projects, pair programming and refactoring other people's code.",
         "But lots of people transition into software development through sustained, disciplined self-study - which is great for them, and we hope that they continue to do so! 🎉"
       ],
-      "tags": ["Comparisons", "Self-study"],
-      "link": "https://www.slant.co/topics/965/~best-websites-to-learn-to-code"
+      "tags": ["Comparisons", "Self-study"]
     },
     {
       "question": "Is this a UK version of Lambda School?",
@@ -105,11 +96,11 @@
         "No.",
         "Lambda School, as a U.S. coding bootcamp using an income-sharing agreement model, are a helpful reference point, but there are some important differences:",
         "<strong>Learning model</strong>",
-        "- Tech Collective uses **cooperative project and peer-driven learning**, surrounding you with peers picked from a lengthy application process (where you vet your own peers), to simulate the workplace environment.",
-        "- Lambda School uses **mandatory class instruction** in a way that more closely resembles a traditional university.",
+        "- Tech Collective uses <strong>cooperative project and peer-driven learning</strong>, surrounding you with peers picked from a lengthy application process (where you vet your own peers), to simulate the workplace environment.",
+        "- Lambda School uses <strong>mandatory class instruction</strong> in a way that more closely resembles a traditional university.",
         "<strong>Collective income-sharing</strong>",
-        "- Tech Collective revenue is *shared with the cohort*. We're **a tech-upskill community where you learn and earn together**.",
-        "- Lambda School *keeps all tuition fees*, using an **instructor-class bootcamp model**. (Those coding instructors don't come cheap.)",
+        "- Tech Collective revenue is *shared with the cohort*. We're <strong>a tech-upskill community where you learn and earn together</strong>.",
+        "- Lambda School *keeps all tuition fees*, using an <strong>instructor-class bootcamp model</strong>. (Those coding instructors don't come cheap.)",
         "Lambda School is worth researching as part of your due diligence before committing to Tech Collective."
       ],
       "tags": ["Comparisons"]
@@ -120,10 +111,10 @@
         "No.",
         "Founders and Coders, as a (free!) peer-driven bootcamp, are a helpful reference point, but there are some important differences:",
         "<strong>Risk profile</strong>",
-        "- Tech Collective reduces your career changing risk by allowing you **study part-time** and aligning incentives through a pooled **collective income share**.",
+        "- Tech Collective reduces your career changing risk by allowing you <strong>study part-time</strong> and aligning incentives through a pooled <strong>collective income share</strong>.",
         "- Founders and Coders is a full-time commitment. There is no income sharing agreement involved (because you never pay anything). This might be better for you if you are confident that you will be successful after a short intensive bootcamp.",
         "Peer stake",
-        "- Tech Collective members are actively involved in the selection process of a cohort, so you help to **choose your own peers**. This is important because, due to **collective income sharing**, you all have an economic stake in each other.",
+        "- Tech Collective members are actively involved in the selection process of a cohort, so you help to <strong>choose your own peers</strong>. This is important because, due to <strong>collective income sharing</strong>, you all have an economic stake in each other.",
         "- Founders and Coders students are selected by staff and alumni. This might be better for you if you feel uncomfortable about to participating in an application process that has strong peer-influences (e.g. due to legitimate concerns about unconscious bias).",
         "Founders and Coders is worth researching as part of your due diligence before committing to Tech Collective."
       ],
@@ -133,7 +124,7 @@
       "question": "What will I study?",
       "answer": [
         "You will be given an opinionated curriculum to follow, with the goal of giving you the skills you need to get a job as a software developer as quickly and easily as possible.",
-        "This means learning **specific technologies**, **development practices** and **job-search skills**."
+        "This means learning <strong>specific technologies</strong>, <strong>development practices</strong> and <strong>job-search skills</strong>."
       ],
       "tags": ["Curriculum"],
       "internalLink": "curriculum"
@@ -176,9 +167,9 @@
         "You stop paying when *either*:",
         "(a) 3 years have passed since programme end; or",
         "(b) you have contributed £5k into the total pot.",
-        "**This contribution cap of £5,000 is expected to increase in future**. We're keeping it artificially low for the first cohort(s) for the following reasons:",
-        "- **demonstrating success:** we need to demonstrate success of members to prove our worth in future",
-        "- **piloting materials:** we will be piloting some curriculum materials which may get refined over time"
+        "<strong>This contribution cap of £5,000 is expected to increase in future</strong>. We're keeping it artificially low for the first cohort(s) for the following reasons:",
+        "- <strong>demonstrating success:</strong> we need to demonstrate success of members to prove our worth in future",
+        "- <strong>piloting materials:</strong> we will be piloting some curriculum materials which may get refined over time"
       ],
       "tags": ["Payments"]
     },
@@ -186,9 +177,9 @@
       "question": "Why are there so many stages in the application process?",
       "answer": [
         "We have multiple stages for benefit of all of the following:",
-        "- **Yourself:** we want you to know what you're committing to",
-        "- **Your peers:** we want every cohort to form an effective learning community",
-        "- **Tech Collective:** we want to minimise dropouts and maximise outcomes",
+        "- <strong>Yourself:</strong> we want you to know what you're committing to",
+        "- <strong>Your peers:</strong> we want every cohort to form an effective learning community",
+        "- <strong>Tech Collective:</strong> we want to minimise dropouts and maximise outcomes",
         "<strong>For yourself: we want you to know what you're committing to</strong>",
         "At 10 hours a week, for 12 months, Tech Collective is a serious commitment.",
         "It's important that you be able to make an informed decision about this commitment.",
@@ -205,7 +196,7 @@
         "We only make money if:",
         "- admitted members commit seriously to Tech Collective; and",
         "- every cohort forms an effective learning community.",
-        "That's why it's in *your* interest, your *peers*' interest, **and** *our* interest for there to be a rigorous application process with multiple stages."
+        "That's why it's in *your* interest, your *peers*' interest, <strong>and</strong> *our* interest for there to be a rigorous application process with multiple stages."
       ],
       "tags": ["Applying"]
     },

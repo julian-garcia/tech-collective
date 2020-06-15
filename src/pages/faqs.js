@@ -63,8 +63,8 @@ const FaqsPage = () => {
                 <Modal id={`${index}`} key={`modal.${index}`}>
                   <h2 className="heading">{data.question}</h2>
                   {data.answer.map((paragraph, i) => (<p dangerouslySetInnerHTML={{ __html: paragraph }} key={`faq.${index}p${i}`}></p>))}
-                  {data.link && <a href={data.link} target="_blank" rel="noreferrer">Read more</a>}
-                  {data.internalLink && <Link to={data.internalLink}>Read more</Link>}
+                  {data.link && <a href={data.link} target="_blank" rel="noreferrer" className="button" style={{width:'150px', display:'block', margin:'0 auto'}}>Read more</a>}
+                  {data.internalLink && <Link to={data.internalLink} className="button" style={{width:'150px', display:'block', margin:'0 auto'}}>Read more</Link>}
                 </Modal>
                 {(index + 1) % 3 === 0 && <div className="block-container dark tablet-landscape-up" key={`faq.iii.${index}`}></div>}
               </Fragment>

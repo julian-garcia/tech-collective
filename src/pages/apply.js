@@ -16,7 +16,7 @@ const ApplyPage = () => (
       <div className="block-container" style={{paddingBottom:'0'}}>
         <p className="block">We're humbled by your interest in Tech Collective.<br/>We have a deliberately lengthy application process - but feedback will be provided to all unsuccessful applicants.</p>
       </div>
-      <div className="block-container" style={{paddingBottom:'0', cursor:'pointer'}} onClick={() => showModalById('stages')}>
+      <div className="block-container" style={{paddingBottom:'0', cursor:'pointer'}} onClick={() => showModalById('stages')} role="button" tabIndex="0" onKeyPress={() => {}}>
         <p className="block">When we say that this application process is for <strong>your benefit as well as ours</strong>, that's not corporate platitude, it's genuine sentiment. <span className="link-text">Learn more: Why are there so many stages in the application process?</span></p>
       </div>
       <div className="block-container" style={{paddingBottom:'0'}}>

@@ -73,3 +73,17 @@ tr {
     border: 5px solid white;
   }
 }
+
+.payments td {
+  @media (max-width: $tablet-landscape) { 
+    position: relative;
+    padding: 0;
+    & { font-size: 1.2rem; }
+    &:before { font-weight: bold; }
+    &:nth-child(2):before { content: 'Gross salary: '; }
+    &:nth-child(3):before { content: 'Repays?: '; }
+    &:nth-child(4):before { content: 'Monthly payment: '; }
+    &:nth-child(5):before { content: 'Share of pot: '; }
+    &:nth-child(6):before { content: 'Net payment: '; }
+  }
+}

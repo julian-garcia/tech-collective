@@ -20,6 +20,11 @@
     padding: 3.5rem 1rem 1rem;
     overflow-y: scroll;
 
+    .button {
+      background: $primary-colour;
+      color: black;
+    }
+  
     @media (min-width: $tablet-portrait) {
       width: unset;
       min-width: 500px;
@@ -28,6 +33,11 @@
       border-radius: 1rem;
       background: white;
       color: black;
+
+      .button {
+        background: black;
+        color: white;
+      }    
     }
   }
 

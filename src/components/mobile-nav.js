@@ -9,7 +9,7 @@ const MobileNav = () => (
     <Link to="/philosophy" className="nav-mobile__item" activeClassName='active' onClick={closeNavMenu}>Philosophy</Link>
     <Link to="/curriculum" className="nav-mobile__item" activeClassName='active' onClick={closeNavMenu}>Curriculum</Link>
     <Link to="/faqs" className="nav-mobile__item" activeClassName='active' onClick={closeNavMenu}>FAQs</Link>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlaOkV39i4pSkLOf_nbAlygB8jtb3RXptCnDabb-65-MT9Ww/viewform" target="_blank" className="nav-mobile__item button" rel="noreferrer">Apply</a>
+    <Link to="/apply" className="nav-mobile__item button" activeClassName='active' onClick={closeNavMenu}>Apply</Link>
   </div>
 )
 
