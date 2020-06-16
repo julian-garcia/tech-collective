@@ -58,7 +58,7 @@
         "All funds from your cohort's collective pot (i.e. 50% of Tech Collective cohort revenues) will be distributed equally amongst your cohort (even those not currently paying into it, either through capping out their contributions or falling beneath the income threshold)."
       ],
       "tags": ["Payments", "Sharing"],
-      "internalLink": "/faqs/collective-income"
+      "internalLink": "/faqs/collective-income/"
     },
     {
       "question": "How will income sharing be applied in practice?",
@@ -73,7 +73,7 @@
         "Tech Collective promotes active, collaborative learning. <a href='https://techcollective.substack.com/p/3e2fc406-d9cf-490a-9bed-16403b1951ed' class='link-text' target='_blank' >We think the traditional bootcamp model of crammed, passive and self-centred education is broken.</a>"
       ],
       "tags": ["Bootcamps", "Comparisons"],
-      "internalLink": "/faqs/tech-collective-vs-bootcamp"
+      "internalLink": "/faqs/tech-collective-vs-bootcamp/"
     },
     {
       "question": "How is Tech Collective different to studying by myself?",
@@ -127,7 +127,7 @@
         "This means learning <strong>specific technologies</strong>, <strong>development practices</strong> and <strong>job-search skills</strong>."
       ],
       "tags": ["Curriculum"],
-      "internalLink": "curriculum"
+      "internalLink": "/curriculum/"
     },
     {
       "question": "Does peer learning work in coding?",

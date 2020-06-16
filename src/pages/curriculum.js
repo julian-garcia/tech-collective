@@ -33,9 +33,11 @@ const CurriculumPage = () => (
           <span className="list-emoji" role="img" aria-label="">⚫</span>
           <p>startups</p>
           <div style={{position:'absolute', right:'0', bottom:'-18px'}}>
-            <img src={wefImg} alt="" style={{width:'50px'}} />
-            <h3 className="heading" style={{display:'inline-block', margin:'0 10px', width:'200px'}}>Future of jobs report</h3>
-            <FontAwesomeIcon icon={faFilePdf} style={{fontSize:'2rem'}} />
+            <a href="http://www3.weforum.org/docs/WEF_Future_of_Jobs_2018.pdf" target="_blank" rel="noreferrer">
+              <img src={wefImg} alt="" style={{width:'50px'}} />
+              <h3 className="heading" style={{display:'inline-block', margin:'0 10px', fontSize:'1rem'}}>Future of jobs report</h3>
+              <FontAwesomeIcon icon={faFilePdf} style={{fontSize:'2rem'}} />
+            </a>
           </div>
         </div>
       </div>
